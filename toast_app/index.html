@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Toast Selector</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <script src='js/app.js'></script>
+</head>
+<body>
+  <h1 class="header">The Toast with the most Coast to Coast</h1>
+  <form id="new-item-form">
+    <div id="form-wrapper">
+      <div class="form-item">
+        <label for="breadType" class = "primary">Choose the foundation of your slice.</label>
+        <select id="breadType">
+          <option value="" disabled selected></option>
+          <option value="Rye">Rye</option>
+          <option value="Sourdough">Sourdough</option>
+          <option value="Broon">Broon</option>
+          <option value="Wholegrain">Wholegrain</option>
+        </select>
+      </div>
+      <div class="form-item">
+        <label for="topping" class="primary">Choose your topping!</label>
+        <input type="text" id="topping" required/>
+      </div>
+      <div class="form-item">
+        <label for="toastLevel" class = "primary">How toasty are you?</label>
+        <select id="toastLevel">
+          <option value=""disabled selected></option>
+          <option value="1 - Bread. We have shown it the toaster.">Level 1 - Bread. We have shown it the toaster.</option>
+          <option value="2 - Fairy Toast">2 - Fairy Toast</option>
+          <option value="3 - Gentle Crust">Level 3 - Gentle Crust</option>
+          <option value="4 - Golden Soft">Level 4 - Golden Soft</option>
+          <option value="5 - Crispy Business">Level 5 - Crispy Business</option>
+          <option value="6 - Crunchy Gold">Level 6 - Crunchy Gold</option>
+          <option value="7 - Hardcore Brown">Level 7 - Hardcore Brown</option>
+          <option value="8 - Charcoal.">Level 8 - Charcoal.</option>
+
+        </select>
+
+      </div>
+
+    </div>
+    <input type="submit" value="save"/>
+  </form>
+
+  <h2>Toast of fame</h2>
+  <ul id='toastList'></ul>
+
+</body>
+</html>

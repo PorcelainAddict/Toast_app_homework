@@ -1,0 +1,23 @@
+body {
+  background: url(https://i.pinimg.com/originals/d6/ae/9b/d6ae9b734787b19df23cb8c6ba2fb3e6.jpg)
+   no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #000000;
+  font-family: monospace;
+  font-size: 13;
+}
+
+#new-item-form {
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-family: helvetica;
+  font-weight: bold;
+  border: 40px, 200px, 50px, 200px;
+  padding: 20px, 20px, 20px, 20px;
+}
